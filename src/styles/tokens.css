@@ -1,0 +1,28 @@
+@theme {
+  /* Colors */
+  --color-white: oklch(100% 0 0);
+  --color-black: oklch(0% 0 0);
+  --color-gray-100: oklch(98.2% 0.004121 271.4);
+  --color-gray-200: oklch(96.4% 0.008291 271.3);
+  --color-gray-300: oklch(92.4% 0.013336 262.4);
+  --color-gray-500: oklch(63.3% 0.018538 268.4);
+  --color-gray-600: oklch(38.5% 0.016683 262.3);
+  --color-gray-700: oklch(27.2% 0.015961 264.3);
+  --color-gray-800: oklch(23.9% 0.01664 264.2);
+  --color-gray-900: oklch(15.9% 0.015734 266.6);
+  --color-red: oklch(59.1% 0.212301 23);
+  --color-green: oklch(63.4% 0.161955 148.4);
+  --color-yellow: oklch(78.4% 0.15872 73);
+  --color-blue: oklch(54% 0.190584 257.5);
+
+  /* Typography */
+  --title1: 24px/28.8px var(--pretendard);
+  --title2: 20px/24px var(--pretendard);
+  --body: 16px/28.8px var(--pretendard);
+  --caption: 12px/16px var(--pretendard);
+
+  /* Breakpoint */
+  --breakpoint-tablet: 744px;
+  --breakpoint-laptop: 1200px;
+  --breakpoint-desktop: 1400px;
+}
